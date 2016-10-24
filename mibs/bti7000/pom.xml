@@ -2,26 +2,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>mibs</artifactId>
-        <groupId>com.btisystems.mibbler</groupId>
-        <version>1.1-SNAPSHOT</version>
+        <artifactId>mibbler-mibs</artifactId>
+        <groupId>org.onosproject</groupId>
+        <version>1.1-20161021.1</version>
     </parent>
-    <groupId>com.btisystems.mibbler.mibs</groupId>
-    <artifactId>bti7000</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <groupId>org.onosproject</groupId>
+    <artifactId>mibbler-mibs-bti7000</artifactId>
+    <version>1.1-20161021.1</version>
     <packaging>jar</packaging>
     <name>bti7000</name>
     <description>Provides classes generated from the BTI 7000 MIBs</description>
     <dependencies>
         <dependency>
-            <groupId>com.btisystems.mibbler.mibs</groupId>
-            <artifactId>rfc</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <groupId>org.onosproject</groupId>
+            <artifactId>mibbler-mibs-rfc</artifactId>
+            <version>1.1-20161021.1</version>
         </dependency>
         <dependency>
-            <groupId>com.btisystems.mibbler.mibs</groupId>
-            <artifactId>net-snmp</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <groupId>org.onosproject</groupId>
+            <artifactId>mibbler-mibs-net-snmp</artifactId>
+            <version>1.1-20161021.1</version>
         </dependency>
     </dependencies>
     <build>
